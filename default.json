@@ -1,4 +1,10 @@
 {
   "extends": ["config:base", "schedule:monthly"],
-  "labels": ["dependencies"]
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["pin"],
+      "automerge": true
+    }
+  ]
 }
