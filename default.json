@@ -3,7 +3,7 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": ["minor", "patch", "pin"],
       "automerge": true
     }
   ]
