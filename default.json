@@ -1,5 +1,10 @@
 {
-  "extends": ["config:base", "schedule:monthly"],
+  "extends": [
+    "config:base",
+    "schedule:monthly",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone"
+  ],
   "labels": ["dependencies"],
   "packageRules": [
     {
