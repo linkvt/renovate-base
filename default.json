@@ -1,6 +1,7 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
+    "regexManagers:githubActionsVersions",
     "schedule:monthly",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
