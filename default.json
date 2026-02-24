@@ -5,6 +5,7 @@
     "regexManagers:githubActionsVersions",
     "schedule:monthly",
     ":automergeMinor",
+    ":automergeDigest",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone"
   ],
